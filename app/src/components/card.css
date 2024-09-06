@@ -1,35 +1,109 @@
 .card {
+  display: flex;
+padding: 48px;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+align-self: stretch;
+border-radius: 0px 0px 48px 48px;
+border: 1px solid #000;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.card-header {
-}
 
 .card-header img {
+  height: 373px;
+align-self: stretch;
 }
 
 .card-body {
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 25px;
+align-self: stretch;
 }
 
 .title {
+  align-self: stretch;
+  color: #2E2E2E;
+font-feature-settings: 'liga' off, 'clig' off;
+font-family: Satoshi;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.44px;
 }
 
 .tags {
+  display: flex;
+align-items: center;
+align-content: center;
+gap: 12px;
+flex: 1 0 0;
+flex-wrap: wrap;
 }
 
 .tag {
+  display: flex;
+padding: 12px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 99px;
 }
 
 .content {
+  align-self: stretch;
+  color: #2E2E2E;
+font-feature-settings: 'liga' off, 'clig' off;
+font-family: Satoshi;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 36px */
+letter-spacing: -0.72px;
 }
 
 .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
 }
 
 .price {
+  color: #2E2E2E;
+font-feature-settings: 'liga' off, 'clig' off;
+font-family: Satoshi;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 54px */
+letter-spacing: -1.08px;
 }
 
 .cart-btn {
+  display: flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+color: #FFF;
+font-feature-settings: 'liga' off, 'clig' off;
+font-family: Satoshi;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 36px */
+letter-spacing: -0.72px;
+border-radius: 16px;
+background: #4B5444;
 }
 
 .cart-btn span {
+  width: 36px;
+height: 36px;
 }

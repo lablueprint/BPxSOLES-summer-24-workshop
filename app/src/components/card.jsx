@@ -24,8 +24,8 @@ const Card = () => {
           A top choice among our customers: delicious, healthy, and an amazing
           part of any morning routine!
         </div>
-        <div className="bottom">
-          <div className="price">15</div>
+        <div className="footer">
+          <div className="price">$15</div>
           <button className="cart-btn">
             Add to cart
             <span>
